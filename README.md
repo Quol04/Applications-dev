@@ -1,2 +1,2 @@
-# flutter-apps
-This Repo is for making changes on apps i create using flutter and dart
+# WEBSITE DEVELOPMENT
+This Repo is for keeping track of a project I am currently doing
