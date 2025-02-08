@@ -1,0 +1,53 @@
+.page__header{
+    background: url(../assets/graduate1.jpg) center center/cover;
+}
+
+
+.programs__menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem,1fr));
+    gap: 1.5rem;
+}
+
+.program{
+    background: var(--color-gray-0);
+    display: flex;
+    text-align: left;
+    color: var(--color-gray-700);
+    border-radius: var(--radius-4);
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============MEDIA QUERIES (small screens) ============================ */
+
+@media screen and (max-width: 600px) {}

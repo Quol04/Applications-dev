@@ -166,6 +166,7 @@
            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quos modi unde similique omnis sit ad consequatur quod!
         </p>
     </article>
+    <a href="mailto:achotjak@gmail.com" class="btn primary" target="_blank">Do You Have More Questions?</a>
 </menu>
 
 
@@ -196,10 +197,24 @@
     </small>
 </footer>
 
+<!-- ======================Footer Section =================================== -->
 
 
 
 
+<script>
+    const faqs=document.querySelectorAll('.faq')
+    faqs.forEach(faq => {
+        faq.addEventListener('click',() =>{
+            faq.classList.toggle('show')
+            if(faq.classList.contains('show')){
+                faq.querySelector('i').className= 'uil uil-angle-up'
+            }else{
+                 faq.querySelector('i').className= 'uil uil-angle-down'
+            }
+        })
+    })
+</script>
 
 
 <script src="../main.js"></script>
