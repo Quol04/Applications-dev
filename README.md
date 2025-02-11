@@ -7,3 +7,6 @@ This is for practice and I don't own the pictures or any other materials used in
 ### Added some JavaScript functionality
 For more Interactivity, a few lines of code were necessary
 
+### NOTE
+
+
