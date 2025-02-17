@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    /* box-sizing: border-box; */
+}
+body{
+    font-family: "Roboto", serif;
+    /* background-color:hsl(0, 0%, 100%); */
+    color:white  ;
+    background-color:#1f2641 ;
+    line-height: 1.7;
+    /* #2e3267
+    #424890 */
+}
+ img{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+}
+.navbar{
+    width: 100vw;
+    background-color: hsl(227, 40%, 18%);
+    font-size: 1.5rem;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+#search{
+    margin: 0;
+
+}
+#search form{
+    display: flex;
+    
+}
+#search input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    width: 200px;
+    border-radius: 20px;
+}
+#search button{
+    font-size: 1.2rem;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 18px;
+    margin: 2px;
+}
+#search button:hover{
+    background-color: #0CFFBA;
+    transition:all 500ms ease;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 50px;
+    gap: 2rem;
+   
+}
+.navbar-menu li a{
+    color: white;
+
+}
+.navbar-menu li a:hover{
+    background-color:#0CFFBA;
+    transition:all 500ms ease;
+}
+.navbuttons{
+    display: none;
+}
+/*-- ----------------the end of the head/nav bar........ */
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    /* grid-template-areas: ; */
+
+
+}
+.sidebar{
+    margin-top: 5.5rem;
+    position: fixed;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    border: 2px solid black;
+    height: 450px;
+    background-color: rgb(90, 83, 83);
+    
+}
+.sidebar ul li {
+    color: white;
+    padding: 10px;
+}
+
+.sidebar ul li a{
+    color: white;
+}
+.sidebar ul li a :hover{
+    background-color:#0CFFBA;
+    transition:all 500ms ease;
+}
+/*-- ----------------the end of the side bar........ */
+
+/*-- ----------------styles for profile doc........ */
+.profile-section{
+    margin-top: 5rem;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    /* gap: 3rem; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}  
+/* .profile-details h2{
+    margin-top: 0;
+    margin-left: 100px;
+    color: blue;
+} */
+
+.profile-items ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    background-color: black;
+    border-radius: 30px;
+}
+.profile-items ul li{
+    /* background-color: red; */
+    margin: 0;
+    padding: 15px;
+    
+}
+.profile-items ul li a{
+    color: white;
+    font-size: 1.5rem;
+   
+    /* border: 1px solid #0CFFBA; */
+    /* margin: 5px; */
+}
+.profile-items ul li a:hover{
+    background-color:#0CFFBA;
+    transition:all 500ms ease;
+    border-radius: 10px;
+    /* padding: 5px; */
+
+}
+
+
+
+
+
+
+/* style.css */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    width: 100%;
+    /* min-height: 3rem;
+    position: fixed; */
+}
+
+.nav-logo img {
+    width: 50px;
+}
+
+#search input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+#search button {
+    padding: 8px 12px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-left: 20px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.navbuttons {
+    display: none;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #222;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0;
+    color: rgb(17, 15, 15);
+    background: transparent;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-top: 3rem;
+}
+
+.sidebar ul li {
+    padding: 15px;
+}
+
+.sidebar ul li a {
+    color: rgb(26, 20, 20);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li:hover {
+    background-color: #e4d8d8;
+    cursor: pointer;
+}
+
+/* Main Layout */
+.main-layout {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.profile-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.prof {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.prof img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        /* width: 100px; */
+        display: none;
+    }
+
+    .main-layout {
+        margin-left: auto;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbuttons {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* General Navigation Styling */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background: #f8f9fa;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Active Link Styling */
+.nav-menu a.active {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+.nav-menu a:hover {
+    background: #0056b3;
+    color: white;
+}
