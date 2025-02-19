@@ -6,7 +6,7 @@ I started working on it on
 ## NOTE
 This is for practice and I don't own the pictures or any other materials used in the development of this project/Website
 
-### Added some JavaScript functionality
+### Added some JavaScript for functionality/Interactivity
 For more Interactivity, a few lines of code were necessary
 
 ### NOTE
