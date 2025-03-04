@@ -11,6 +11,6 @@ For more Interactivity, a few lines of code were necessary
 
 ### NOTE
 This is not complete yet, I am still working on it.
-The files are incomplete and some will be
+The files are incomplete and some will be completed incrementingly with time
 
 
