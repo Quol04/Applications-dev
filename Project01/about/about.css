@@ -31,6 +31,10 @@
     margin-top: 1rem;
 
 }
+.about__story p {
+    margin: 0.5rem 0;
+
+}
 
 .instructors{
     background: var(--color-gray-0);
