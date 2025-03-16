@@ -253,7 +253,14 @@ footer *{
 .footer__menu,.footer__socials{
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
+}
+
+.footer__menu a{
+    font-weight: 900;
+    font-size: 1.1rem;
+  
+
 }
 
 .footer__socials a{
@@ -278,6 +285,8 @@ footer *{
     display: block;
     padding: 1.5rem;
     border-top: 4px solid var(--color-gray-300);
+    font-weight: 900;
+    font-size: 1.2rem;
 }
 
 
