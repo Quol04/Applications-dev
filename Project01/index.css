@@ -457,36 +457,32 @@ tbody tr:nth-child(odd){
         border-radius: 3rem;
     }
     .ourPrograms__item{
-        width: 80%;
+        width: 88%;
         margin-inline: auto;
     }
     .ourPrograms__list{
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        gap: 3rem;
     }
     .whyUs__container{
-        /* display: block; */
+        
         grid-template-columns: 1fr;
     }
     .whyUs__right{
-        grid-template-columns: 1fr;
-        width: 80%;
+        grid-template-columns: 1fr 1fr;
+        width: 92%;
         margin-inline: auto;
 
     }
     .ourProcess__list{
-        grid-template-columns: 1fr;
+        gap: 2rem;
     }
-    .packages__buttons{
-        flex-direction: column;
+    .packages__container{
+        width: 92%;
+        
     }
-    .packages tr {
-        display: flex;
-        flex-direction: column;
-    }
-    .packages td,.packages th{
-        padding: 0.7rem;
-    }
+   
+    
 }
 
 
@@ -530,8 +526,12 @@ tbody tr:nth-child(odd){
         border-radius: 3rem;
     }
     .ourPrograms__item{
-        width: 80%;
+        width: 86%;
         margin-inline: auto;
+    }
+    .ourPrograms__list{
+        grid-template-columns: 1fr;
+        gap: 3rem;
     }
     .whyUs__container{
         grid-template-columns: 1fr;
