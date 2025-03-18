@@ -3,13 +3,13 @@ This Repo is for keeping track of a project I am currently doing, and the idea i
 I started working on it on 
 #### 4/02/2025 
 
-## NOTE
+## NOTES
 This is for practice and I don't own the pictures or any other materials used in the development of this project/Website
 
 ### Added some JavaScript for functionality/Interactivity
 For more interaction, a few lines of code were necessary.
 
-### NOTE
+### NOTES
 This is not complete yet, I am still working on it.
 The files are incomplete and some will be completed incrementally with time.
 
