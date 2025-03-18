@@ -418,7 +418,76 @@ tbody tr:nth-child(odd){
 
 
 
+/* ==============MEDIA QUERIES (small screens) ============================ */
 
+@media screen and (max-width:880px) {
+    section{
+        padding: 7rem 0;
+    }
+    .hero {
+        padding-top: 8rem ;
+    }
+    .hero__content{
+        width: 100%;
+    }
+    .hero__images{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 3.5rem;
+
+    }
+    .hero__image{
+        border-radius: var(--radius-5);
+        width: 100%;
+        
+    }
+    .hero__image:nth-child(1),.hero__image:nth-child(3),.hero__image:nth-child(5){
+        display: none;
+
+    }
+    .hero__cta{
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+    .about__container{
+        grid-template-columns: 1fr ;
+        gap: 3rem;
+    }
+    .about__left{
+        border-radius: 3rem;
+    }
+    .ourPrograms__item{
+        width: 80%;
+        margin-inline: auto;
+    }
+    .ourPrograms__list{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .whyUs__container{
+        /* display: block; */
+        grid-template-columns: 1fr;
+    }
+    .whyUs__right{
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin-inline: auto;
+
+    }
+    .ourProcess__list{
+        grid-template-columns: 1fr;
+    }
+    .packages__buttons{
+        flex-direction: column;
+    }
+    .packages tr {
+        display: flex;
+        flex-direction: column;
+    }
+    .packages td,.packages th{
+        padding: 0.7rem;
+    }
+}
 
 
 
