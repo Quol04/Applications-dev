@@ -1,10 +1,10 @@
 # WEBSITE DEVELOPMENT
 This Repo is for keeping track of a project I am currently doing, and the idea is not entirely mine. It's for practice.
-I started working on it on 
+I started working on it on,
 #### 4/02/2025 
 
 ## NOTES
-This is for practice and I don't own the pictures or any other materials used in the development of this project/Website
+This is for practice and I don't own the pictures or any other materials used in the development of this project/Website, they were just used to make the pages more lively.
 
 ### Added some JavaScript for functionality/Interactivity
 For more interaction, a few lines of code were necessary.
