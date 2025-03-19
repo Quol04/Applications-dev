@@ -477,6 +477,7 @@ tbody tr:nth-child(odd){
     .ourProcess__list{
         gap: 2rem;
     }
+    
     .packages__container{
         width: 92%;
         
@@ -528,11 +529,20 @@ tbody tr:nth-child(odd){
     .ourPrograms__item{
         width: 86%;
         margin-inline: auto;
+        height: auto;
     }
+    
     .ourPrograms__list{
         grid-template-columns: 1fr;
         gap: 3rem;
     }
+    .ourPrograms__item-image {
+        height: 15rem;
+    }
+    .ourPrograms__item-content{
+        padding: 2rem 1rem;
+
+    }   
     .whyUs__container{
         grid-template-columns: 1fr;
     }
@@ -545,8 +555,15 @@ tbody tr:nth-child(odd){
     .ourProcess__list{
         grid-template-columns: 1fr;
     }
+    .ourProcess__item{
+        padding: 2rem 1rem;
+    }
     .packages__buttons{
         flex-direction: column;
+    }
+    .ourProcess__item h2 {
+        left: 3rem;
+        width: 3.5rem;
     }
     .packages tr {
         display: flex;
