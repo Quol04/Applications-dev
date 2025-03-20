@@ -1,6 +1,6 @@
 # WEBSITE DEVELOPMENT
 This Repo is for keeping track of a project I am currently doing, and the idea is not entirely mine. It's for practice.
-I started working on it on,
+I started working on it ,
 #### 4/02/2025 
 
 ## NOTES
