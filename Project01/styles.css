@@ -169,6 +169,7 @@ body.dark nav{
 
 nav a {
     color: var(--color-gray-0);
+    text-transform: uppercase;
 }
 
 nav a:hover{
