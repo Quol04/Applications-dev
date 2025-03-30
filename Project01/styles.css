@@ -402,30 +402,7 @@ footer *{
     .nav__content{
         gap: 3rem;
     }
-    .nav__menu{
-        position: fixed;
-        top: 4rem;
-        right: 4%;
-        flex-direction: column;
-        gap: 0;
-        width: 15rem;
-        display: none;
-        perspective: 200px;
-    }
-    .nav__menu a{
-        background: linear-gradient(var(--color-gray-800),var(--color-gray-700));
-        color: var(--color-gray-0);
-        height: 4rem;
-        display: grid;
-        place-items: center;
-        width: 100%;
-        box-shadow: -2rem 4rem 3rem rgba(0, 0, 0, 0.2);
-        /* some styling and animations */
-        animation: animation1 300ms ease forwards;
-        transform: rotateX(90deg);
-        opacity: 0;
-        transform-origin: top;
-    }
+    
 
 
 }
