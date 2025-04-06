@@ -3,6 +3,8 @@ This Repo is for keeping track of a project I am currently doing, and the idea i
 I started working on it ,
 #### 4/02/2025 
 
+---
+
 ## NOTES
 This is for practice and I don't own the pictures or any other materials used in the development of this project/Website, they were just used to make the pages more lively.
 
@@ -12,6 +14,8 @@ For more interaction, a few lines of code were necessary.
 ### NOTES
 This is not complete yet, I am still working on it.
 The files are incomplete and some will be completed incrementally with time.
+
+---
 
 ### Resources
 [ Website Link ](http://127.0.0.1:5500/Applications-dev/Project01/index.html)
