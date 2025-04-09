@@ -11,7 +11,7 @@ This is for practice and I don't own the pictures or any other materials used in
 ---
 
 ### Added some JavaScript for functionality/Interactivity
-For more interaction, a few lines of code were necessary.
+For more interaction, a few lines of JavaScript code were necessary.
 
 ### NOTES
 This is not complete yet, I am still working on it.
