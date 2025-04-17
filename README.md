@@ -6,7 +6,7 @@ I started working on it ,
 ---
 
 ## NOTES
-This is for practice and I don't own the pictures or any other materials used in the development of this project/Website, they were just used to make the pages more lively.
+This is for practice and I don't own the pictures or any other materials used in the development of this project/Website.They were just used to make the pages more lively.
 
 ---
 
