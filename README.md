@@ -19,6 +19,6 @@ The files are incomplete, and some will be completed incrementally with time.
 ---
 
 ### Resources:
-[ Website Link ](http://127.0.0.1:5500/Applications-dev/Project01/index.html)
+<!---[ Website Link ](http://127.0.0.1:5500/Applications-dev/Project01/index.html)--->
 
 
