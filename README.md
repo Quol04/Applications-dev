@@ -5,7 +5,11 @@ I started working on it from *4/02/2025*
 ---
 
 ## NOTES
-This is for practice and I don't own the pictures or any other materials used in the development of this project/Website.They were just used to make the pages more lively.
+This is for practice and I don't own the pictures or any other materials used in the development of this project/Website. 
+
+They were just used to make the pages more lively.
+
+There are two folders for now
 
 ---
 
