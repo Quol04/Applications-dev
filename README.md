@@ -27,7 +27,7 @@ This project is **not yet complete**. Development is ongoing, and several files 
 ---
 
 ### Resources:
-<!---[ Website Link ](http://127.0.0.1:5500/Applications-dev/Project01/index.html)--->
+<!---[ Website Link ](http://127.0.0.1:5500/Applications-dev/Project01/index.html)
 
 
 
