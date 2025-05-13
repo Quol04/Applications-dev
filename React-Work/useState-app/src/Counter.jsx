@@ -1,21 +1,21 @@
 import { useState } from 'react';
 import './Counter.css';
 
-function Counter() {
-  const [count, setCount] = useState(0);
+function Counter({startingValue, interval}) {
+  const [count, setCount] = useState(startingValue);
 
   const increment= () => {
-    setCount(count + 1);
+    setCount(count + interval);
   };
   const decrement =()=> {
-    setCount(count - 1);
+    setCount(count - interval);
   }
 
   return (
     <div className='counter'>
-      <button onClick={decrement}>Decrement</button>
+      <button onClick={decrement}>Decrement by {interval}</button>
       <h1>{count}</h1>
-      <button onClick={increment}>Increment</button>
+      <button onClick={increment}>Increment by {interval}</button>
     </div>
   );
 }
