@@ -8,8 +8,8 @@ This repository is dedicated to a personal project I’m currently working on. W
 
 ## Project Notes
 
-- This project is **for educational purposes only**.
-- All external assets, such as images or design inspirations, are used purely to enhance the visual quality of the site and are **not owned by me**.
+- This project is *for educational purposes only*.
+- All external assets, such as images or design inspirations, are used purely to enhance the visual quality of the site and are *not owned by me*.
 - The current structure consists of two main folders. More may be added as development progresses.
 
 ---
