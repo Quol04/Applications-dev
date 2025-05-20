@@ -21,17 +21,9 @@ function App() {
     <>
     <button onClick={()=> setCount(count+1)}>{count}</button>
     {/* {users.map((user) => user.name)} */}
-    <h3 >{currentUser.name}</h3>
-    <p>{currentUser.email}</p>
-
-     {/* { users.map((user) => (
-        <div key={user.id}>
-          <h2>{user.name}</h2>
-          <p>{user.email}</p>
-          <p>{user.phone}</p>
-        </div>
-      ))
-      } */}
+    <h3>Name: {currentUser.name}</h3>
+    <p>Email: {currentUser.email}</p>
+    <p>Phone Number: {currentUser.phone}</p>
     </>
   )
 }
