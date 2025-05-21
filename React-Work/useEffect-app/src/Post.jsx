@@ -12,18 +12,21 @@ function Post({post,selectedPostId, setSelectedPostId}) {
     
     return (
         <>
-        <h1>Posts</h1>
-        <ul>
-            {posts.map((post) => (
-            <li key={post.id} onClick={() => setCurrentPost(post)}>
-                {post.title}
-            </li>
-            ))}
-        </ul>
-        {currentPost && (
-            <div>
-            <h2>{currentPost.title}</h2>
-            <p>{currentPost.body}</p>
+        <div className="post-card">
+            <span className="card-title">{post.title}</span>
+            <p>{post.body}</p>
+            <span className="comment-link" onClick={() => setSelectedPostId(post.id)}>
+                open comments
+            </span>
+        </div>
+        {selectedPostId === post.id && (
+            <div className="comment-wrapper">
+                {comments.map((c) => (
+                    <div key={c.id} className="comment post-card">
+                        <span className="card-title">{c.name}</span>
+                        <p>{c.body}</p>
+                    </div>
+                ))}
             </div>
         )}
         </>

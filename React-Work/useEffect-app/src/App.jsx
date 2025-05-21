@@ -32,7 +32,9 @@ function App() {
     <p>Email: {currentUser.email}</p>
     <p>Phone Number: {currentUser.phone}</p>
 
-    <Post />
+    <Post post={post} 
+     selectedPostId={selectedPostId}
+     setSelectedPostId={setSelectedPostId}/>
     </>
   )
 }
