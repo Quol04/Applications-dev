@@ -1,5 +1,6 @@
 import { useState,useEffect } from 'react'
 import './App.css'
+import Post from './Post.jsx'
 
 function App() {
   const [count, setCount] = useState(1)
@@ -20,10 +21,11 @@ function App() {
   return (
     <>
     <button onClick={()=> setCount(count+1)}>{count}</button>
-    {/* {users.map((user) => user.name)} */}
     <h3>Name: {currentUser.name}</h3>
     <p>Email: {currentUser.email}</p>
     <p>Phone Number: {currentUser.phone}</p>
+
+    <Post></Post>
     </>
   )
 }
