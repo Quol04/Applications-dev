@@ -34,14 +34,14 @@ function App() {
 
 
         <div className='posts-wrapper'>
-        {posts.map((post) => (
-          <Post 
-          key={post.id} 
-          post={post} 
-          selectedPostId={selectedPostId}
-          setSelectedPostId={setSelectedPostId}
-          />
-        ))}
+          {posts.map((post) => (
+            <Post 
+            key={post.id} 
+            post={post} 
+            selectedPostId={selectedPostId}
+            setSelectedPostId={setSelectedPostId}
+            />
+          ))}
         </div>
     </>
   )

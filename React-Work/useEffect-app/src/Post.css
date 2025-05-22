@@ -1,3 +1,14 @@
+body {
+  font-size: 0.8em;
+}
+
+.posts-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 .post-card {
   border: 3px solid navy;
   padding: 1rem;
@@ -9,4 +20,5 @@
 .comment-link {
     color: rgb(28, 67, 86);
     font-size: 0.65rem;
+    cursor: pointer;
 }

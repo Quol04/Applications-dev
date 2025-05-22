@@ -4,11 +4,15 @@ import "./Post.css";
 function Post({post,selectedPostId, setSelectedPostId}) {
     const [comments, setComments] = useState([]);
     useEffect(() => {
-        fetch("https://jsonplaceholder.typicode.com/posts")
-        .then((res) => res.json())
-        .then((data) => setPosts(data))
-        .catch((error) => console.warn("Error fetching data:", error));
-    }, []);
+        if (selectedPostId !== post.id) {
+            setComments([]);
+        
+            fetch("https://jsonplaceholder.typicode.com/posts")
+            .then((res) => res.json())
+            .then((data) => setPosts(data))
+            .catch((error) => console.warn("Error fetching data:", error));
+        }
+    }, [selectedPostId]);
     
     return (
         <>
