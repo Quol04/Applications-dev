@@ -1,0 +1,12 @@
+.post-card {
+  border: 3px solid navy;
+  padding: 1rem;
+}
+
+.card-title {
+  font-weight: 900;
+}
+.comment-link {
+    color: rgb(28, 67, 86);
+    font-size: 0.65rem;
+}
