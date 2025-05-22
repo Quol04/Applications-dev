@@ -1,5 +1,5 @@
 import { useState,useEffect } from 'react'
-import './App.css'
+import './Post.css'
 import Post from './Post.jsx'
 
 function App() {
@@ -27,14 +27,22 @@ function App() {
 
   return (
     <>
-    <button onClick={()=> setCount(count+1)}>{count}</button>
-    <h3>Name: {currentUser.name}</h3>
-    <p>Email: {currentUser.email}</p>
-    <p>Phone Number: {currentUser.phone}</p>
+        <button onClick={()=> setCount(count+1)}>{count}</button>
+        <h3>Name: {currentUser.name}</h3>
+        <p>Email: {currentUser.email}</p>
+        <p>Phone Number: {currentUser.phone}</p>
 
-    <Post post={post} 
-     selectedPostId={selectedPostId}
-     setSelectedPostId={setSelectedPostId}/>
+
+        <div className='posts-wrapper'>
+        {posts.map((post) => (
+          <Post 
+          key={post.id} 
+          post={post} 
+          selectedPostId={selectedPostId}
+          setSelectedPostId={setSelectedPostId}
+          />
+        ))}
+        </div>
     </>
   )
 }
