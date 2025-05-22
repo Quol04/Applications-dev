@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import "./App.css";
+import "./Post.css";
 
 function Post({post,selectedPostId, setSelectedPostId}) {
-    
+    const [comments, setComments] = useState([]);
     useEffect(() => {
         fetch("https://jsonplaceholder.typicode.com/posts")
         .then((res) => res.json())
